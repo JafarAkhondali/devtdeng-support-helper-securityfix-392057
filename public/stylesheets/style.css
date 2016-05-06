@@ -1,0 +1,42 @@
+#main-container {
+  margin: 0 auto;
+}
+
+#main-container h1 {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+  max-width: 430px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.sr-title {
+  max-width: 930px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.sr-description{
+  max-width: 930px;
+  padding: 15px;
+  margin: 0 auto;  
+}
+
+.result-box {
+  max-width: 930px;
+  padding: 15px;  
+  max-height: 500px;
+  margin: 0 auto;    
+  overflow: auto;
+}
+
+.kb-result-box {
+  max-width: 930px;
+  padding: 15px;  
+  max-height: 500px;
+  margin: 0 auto;    
+  overflow: auto;
+}

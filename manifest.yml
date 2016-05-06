@@ -1,0 +1,9 @@
+---
+applications:
+- name: gss-support-portal
+  host: gss-support-portal
+  memory: 256M
+  instances: 1
+  buildpack: nodejs_buildpack
+  disk_quota: 1G
+  path: ./
