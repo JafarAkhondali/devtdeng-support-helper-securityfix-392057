@@ -12,6 +12,11 @@ function htmlEntities(str) {
 var server = http.createServer(function(request, response) {
 
   var uri = url.parse(request.url).pathname;
+    if (path.normalize(decodeURIComponent(uri)) !== decodeURIComponent(uri)) {
+        response.statusCode = 403;
+        response.end();
+        return;
+    }
   var filename = path.join(process.cwd(), '/public' + uri);
 
   console.log((new Date()) + ' Resource Request at ' + filename);
